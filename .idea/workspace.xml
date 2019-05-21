@@ -1,7 +1,371 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="523aee37-96c2-4200-b850-81ebc8851a41" name="Default" comment="" />
+    <list default="true" id="523aee37-96c2-4200-b850-81ebc8851a41" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/.plxarc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/ConnectedComponents.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/DistCp.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/EnumTriangles.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/KMeans.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/PageRank.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/TransitiveClosure.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/WebLogAnalysis.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/WordCount.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/antrun/build-main.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes.-428597528.timestamp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/META-INF/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/META-INF/NOTICE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/log4j.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/logback.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/clustering/KMeans.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/clustering/util/KMeansData.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/clustering/util/KMeansDataGenerator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/distcp/DistCp.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/distcp/FileCopyTask.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/distcp/FileCopyTaskInputFormat.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/distcp/FileCopyTaskInputSplit.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/graph/ConnectedComponents.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/graph/EnumTriangles.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/graph/PageRank.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/graph/TransitiveClosureNaive.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/graph/util/ConnectedComponentsData.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/graph/util/EnumTrianglesData.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/graph/util/EnumTrianglesDataTypes.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/graph/util/PageRankData.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/misc/CollectionExecutionExample.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/misc/PiEstimation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/ml/LinearRegression.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/ml/util/LinearRegressionData.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/ml/util/LinearRegressionDataGenerator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/relational/EmptyFieldsCountAccumulator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/relational/TPCHQuery10.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/relational/TPCHQuery3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/relational/WebLogAnalysis.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/relational/util/WebLogData.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/relational/util/WebLogDataGenerator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/wordcount/WordCount.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/wordcount/WordCountPojo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/java/wordcount/util/WordCountData.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/scala/clustering/KMeans.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/scala/graph/ConnectedComponents.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/scala/graph/DeltaPageRank.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/scala/graph/EnumTriangles.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/scala/graph/PageRankBasic.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/scala/graph/TransitiveClosureNaive.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/scala/misc/PiEstimation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/scala/ml/LinearRegression.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/scala/relational/TPCHQuery10.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/scala/relational/TPCHQuery3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/scala/relational/WebLogAnalysis.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/classes/org/apache/flink/examples/scala/wordcount/WordCount.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/dependency-reduced-pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/flink-examples-batch_2.11-1.8-SNAPSHOT-ConnectedComponents.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/flink-examples-batch_2.11-1.8-SNAPSHOT-DistCp.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/flink-examples-batch_2.11-1.8-SNAPSHOT-EnumTriangles.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/flink-examples-batch_2.11-1.8-SNAPSHOT-KMeans.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/flink-examples-batch_2.11-1.8-SNAPSHOT-PageRank.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/flink-examples-batch_2.11-1.8-SNAPSHOT-TransitiveClosure.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/flink-examples-batch_2.11-1.8-SNAPSHOT-WebLogAnalysis.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/flink-examples-batch_2.11-1.8-SNAPSHOT-WordCount.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/flink-examples-batch_2.11-1.8-SNAPSHOT-tests.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/flink-examples-batch_2.11-1.8-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/original-flink-examples-batch_2.11-1.8-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-batch/target/scalastyle-output.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-state-machine/target/.plxarc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-state-machine/target/StateMachineExample.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-state-machine/target/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-state-machine/target/classes/META-INF/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-state-machine/target/classes/META-INF/NOTICE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-state-machine/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-state-machine/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-state-machine/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-state-machine/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-state-machine/target/original-StateMachineExample.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-twitter/target/.plxarc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-twitter/target/Twitter.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-twitter/target/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-twitter/target/classes/META-INF/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-twitter/target/classes/META-INF/NOTICE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-twitter/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-twitter/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-twitter/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-twitter/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-twitter/target/original-Twitter.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/target/.plxarc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/target/flink-examples-build-helper-1.8-SNAPSHOT-shaded-tests.pom" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/target/flink-examples-build-helper-1.8-SNAPSHOT-shaded.pom" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-build-helper/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/.plxarc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/IncrementalLearning.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/Iteration.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/SessionWindowing.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/SocketWindowWordCount.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/TopSpeedWindowing.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/WindowJoin.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/WordCount.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/antrun/build-main.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes.1942738152.timestamp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/log4j.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/logback.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/async/AsyncIOExample$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/async/AsyncIOExample$SampleAsyncFunction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/async/AsyncIOExample$SimpleSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/async/AsyncIOExample.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/iteration/IterateExample$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/iteration/IterateExample$FibonacciInputMap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/iteration/IterateExample$InputMap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/iteration/IterateExample$MySelector.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/iteration/IterateExample$OutputMap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/iteration/IterateExample$RandomFibonacciSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/iteration/IterateExample$Step.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/iteration/IterateExample.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/iteration/util/IterateExampleData.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/join/WindowJoin$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/join/WindowJoin$NameKeySelector.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/join/WindowJoin.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/join/WindowJoinSampleData$GradeSource$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/join/WindowJoinSampleData$GradeSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/join/WindowJoinSampleData$SalarySource$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/join/WindowJoinSampleData$SalarySource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/join/WindowJoinSampleData.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/ml/IncrementalLearningSkeleton$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/ml/IncrementalLearningSkeleton$FiniteNewDataSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/ml/IncrementalLearningSkeleton$FiniteTrainingDataSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/ml/IncrementalLearningSkeleton$LinearTimestamp.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/ml/IncrementalLearningSkeleton$PartialModelBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/ml/IncrementalLearningSkeleton$Predictor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/ml/IncrementalLearningSkeleton.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/ml/util/IncrementalLearningSkeletonData.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/sideoutput/SideOutputExample$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/sideoutput/SideOutputExample$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/sideoutput/SideOutputExample$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/sideoutput/SideOutputExample$Tokenizer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/sideoutput/SideOutputExample.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/socket/SocketWindowWordCount$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/socket/SocketWindowWordCount$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/socket/SocketWindowWordCount$WordWithCount.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/socket/SocketWindowWordCount.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/statemachine/KafkaEventsGeneratorJob.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/statemachine/StateMachineExample$StateMachineMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/statemachine/StateMachineExample.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/statemachine/dfa/EventTypeAndState.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/statemachine/dfa/State.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/statemachine/dfa/Transition.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/statemachine/event/Alert.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/statemachine/event/Event.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/statemachine/event/EventType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/statemachine/generator/EventsGenerator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/statemachine/generator/EventsGeneratorSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/statemachine/generator/StandaloneThreadedGenerator$GeneratorThread.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/statemachine/generator/StandaloneThreadedGenerator$ThroughputLogger.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/statemachine/generator/StandaloneThreadedGenerator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/statemachine/kafka/EventDeSerializer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/statemachine/kafka/KafkaStandaloneGenerator$KafkaCollector.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/statemachine/kafka/KafkaStandaloneGenerator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/twitter/util/TwitterExampleData.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/utils/ThrottledIterator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/windowing/GroupedProcessingTimeWindowExample$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/windowing/GroupedProcessingTimeWindowExample$DataSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/windowing/GroupedProcessingTimeWindowExample$FirstFieldKeyExtractor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/windowing/GroupedProcessingTimeWindowExample$SummingReducer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/windowing/GroupedProcessingTimeWindowExample$SummingWindowFunction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/windowing/GroupedProcessingTimeWindowExample.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/windowing/SessionWindowing$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/windowing/SessionWindowing.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/windowing/TopSpeedWindowing$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/windowing/TopSpeedWindowing$CarSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/windowing/TopSpeedWindowing$CarTimestamp.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/windowing/TopSpeedWindowing$ParseCarData.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/windowing/TopSpeedWindowing.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/windowing/WindowWordCount.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/windowing/util/SessionWindowingData.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/windowing/util/TopSpeedWindowingExampleData.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/wordcount/WordCount$Tokenizer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/wordcount/WordCount.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/examples/wordcount/util/WordCountData.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/async/AsyncIOExample$$anonfun$1$$anonfun$apply$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/async/AsyncIOExample$$anonfun$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/async/AsyncIOExample$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/async/AsyncIOExample.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/async/SimpleSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anon$10$$anon$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anon$10$$anonfun$createSerializer$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anon$10.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anon$8$$anon$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anon$8$$anonfun$createSerializer$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anon$8.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anon$9$$anon$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anon$9$$anonfun$createSerializer$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anon$9.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anonfun$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anonfun$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anonfun$3$$anon$11$$anon$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anonfun$3$$anon$11$$anonfun$createSerializer$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anonfun$3$$anon$11.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anonfun$3$$anon$12$$anon$13$$anon$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anonfun$3$$anon$12$$anon$13$$anonfun$createSerializer$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anonfun$3$$anon$12$$anon$13.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anonfun$3$$anon$12$$anon$14$$anon$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anonfun$3$$anon$12$$anon$14$$anonfun$createSerializer$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anonfun$3$$anon$12$$anon$14.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anonfun$3$$anon$12$$anon$7.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anonfun$3$$anon$12$$anonfun$createSerializer$7.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anonfun$3$$anon$12.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anonfun$3$$anonfun$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anonfun$3$$anonfun$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anonfun$3$$anonfun$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anonfun$3$$anonfun$7.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$$anonfun$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample$RandomFibonacciSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/iteration/IterateExample.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoin$$anon$2$$anon$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoin$$anon$2$$anonfun$createSerializer$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoin$$anon$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoin$$anonfun$joinStreams$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoin$$anonfun$joinStreams$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoin$$anonfun$joinStreams$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoin$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoin$Grade$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoin$Grade.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoin$Person$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoin$Person.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoin$Salary$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoin$Salary.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoin.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoinSampleData$$anon$3$$anon$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoinSampleData$$anon$3$$anonfun$createSerializer$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoinSampleData$$anon$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoinSampleData$$anon$4$$anon$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoinSampleData$$anon$4$$anonfun$createSerializer$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoinSampleData$$anon$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoinSampleData$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoinSampleData$GradeSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoinSampleData$SalarySource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/join/WindowJoinSampleData.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/ml/IncrementalLearningSkeleton$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/ml/IncrementalLearningSkeleton$FiniteNewDataSource$$anonfun$run$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/ml/IncrementalLearningSkeleton$FiniteNewDataSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/ml/IncrementalLearningSkeleton$FiniteTrainingDataSource$$anonfun$run$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/ml/IncrementalLearningSkeleton$FiniteTrainingDataSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/ml/IncrementalLearningSkeleton$LinearTimestamp.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/ml/IncrementalLearningSkeleton$PartialModelBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/ml/IncrementalLearningSkeleton$Predictor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/ml/IncrementalLearningSkeleton.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/socket/SocketWindowWordCount$$anon$2$$anon$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/socket/SocketWindowWordCount$$anon$2$$anonfun$createSerializer$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/socket/SocketWindowWordCount$$anon$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/socket/SocketWindowWordCount$$anonfun$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/socket/SocketWindowWordCount$$anonfun$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/socket/SocketWindowWordCount$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/socket/SocketWindowWordCount$WordWithCount$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/socket/SocketWindowWordCount$WordWithCount.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/socket/SocketWindowWordCount.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/GroupedProcessingTimeWindowExample$$anon$2$$anon$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/GroupedProcessingTimeWindowExample$$anon$2$$anonfun$createSerializer$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/GroupedProcessingTimeWindowExample$$anon$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/GroupedProcessingTimeWindowExample$$anon$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/GroupedProcessingTimeWindowExample$$anonfun$main$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/GroupedProcessingTimeWindowExample$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/GroupedProcessingTimeWindowExample$DataSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/GroupedProcessingTimeWindowExample.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/SessionWindowing$$anon$2$$anon$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/SessionWindowing$$anon$2$$anonfun$createSerializer$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/SessionWindowing$$anon$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/SessionWindowing$$anon$3$$anonfun$run$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/SessionWindowing$$anon$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/SessionWindowing$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/SessionWindowing.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$$anon$4$$anon$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$$anon$4$$anonfun$createSerializer$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$$anon$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$$anon$5$$anon$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$$anon$5$$anonfun$createSerializer$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$$anon$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$$anon$6$$anon$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$$anon$6$$anonfun$createSerializer$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$$anon$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$$anon$7$$anonfun$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$$anon$7$$anonfun$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$$anon$7$$anonfun$run$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$$anon$7.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$$anon$8.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$$anonfun$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$$anonfun$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$$anonfun$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$CarEvent$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing$CarEvent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/TopSpeedWindowing.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/WindowWordCount$$anon$2$$anon$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/WindowWordCount$$anon$2$$anonfun$createSerializer$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/WindowWordCount$$anon$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/WindowWordCount$$anonfun$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/WindowWordCount$$anonfun$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/WindowWordCount$$anonfun$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/WindowWordCount$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/windowing/WindowWordCount.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/wordcount/WordCount$$anon$2$$anon$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/wordcount/WordCount$$anon$2$$anonfun$createSerializer$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/wordcount/WordCount$$anon$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/wordcount/WordCount$$anonfun$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/wordcount/WordCount$$anonfun$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/wordcount/WordCount$$anonfun$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/wordcount/WordCount$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/classes/org/apache/flink/streaming/scala/examples/wordcount/WordCount.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/dependency-maven-plugin-markers/org.apache.flink-flink-connector-twitter_2.11-jar-1.8-SNAPSHOT-644627750" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/dependency-maven-plugin-markers/org.apache.flink-flink-examples-batch_2.11-jar-1.8-SNAPSHOT1302511818" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/dependency-reduced-pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/flink-examples-streaming_2.11-1.8-SNAPSHOT-AsyncIO.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/flink-examples-streaming_2.11-1.8-SNAPSHOT-IncrementalLearning.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/flink-examples-streaming_2.11-1.8-SNAPSHOT-Iteration.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/flink-examples-streaming_2.11-1.8-SNAPSHOT-SessionWindowing.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/flink-examples-streaming_2.11-1.8-SNAPSHOT-SocketWindowWordCount.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/flink-examples-streaming_2.11-1.8-SNAPSHOT-TopSpeedWindowing.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/flink-examples-streaming_2.11-1.8-SNAPSHOT-WindowJoin.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/flink-examples-streaming_2.11-1.8-SNAPSHOT-WordCount.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/flink-examples-streaming_2.11-1.8-SNAPSHOT-WordCountPOJO.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/flink-examples-streaming_2.11-1.8-SNAPSHOT-tests.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/flink-examples-streaming_2.11-1.8-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/original-flink-examples-streaming_2.11-1.8-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/scalastyle-output.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-streaming/target/test-classes/log4j-test.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/.plxarc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/classes.38127720.timestamp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/classes/META-INF/DEPENDENCIES" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/classes/META-INF/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/classes/META-INF/NOTICE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/classes/org/apache/flink/table/examples/java/StreamSQLExample.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/classes/org/apache/flink/table/examples/java/WordCountSQL.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/classes/org/apache/flink/table/examples/java/WordCountTable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/classes/org/apache/flink/table/examples/scala/StreamSQLExample.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/classes/org/apache/flink/table/examples/scala/StreamTableExample.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/classes/org/apache/flink/table/examples/scala/TPCHQuery3Table.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/classes/org/apache/flink/table/examples/scala/WordCountSQL.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/classes/org/apache/flink/table/examples/scala/WordCountTable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/dependency-reduced-pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/flink-examples-table-with-dependencies.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/flink-examples-table_2.11-1.8-SNAPSHOT-tests.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/flink-examples-table_2.11-1.8-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/maven-shared-archive-resources/META-INF/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/maven-shared-archive-resources/META-INF/NOTICE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flink-examples-table/target/original-flink-examples-table_2.11-1.8-SNAPSHOT.jar" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/flink-examples-streaming/target/" />
@@ -22,8 +386,8 @@
       <file leaf-file-name="WordCount.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/wordcount/WordCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="97" column="75" lean-forward="true" selection-start-line="97" selection-start-column="75" selection-end-line="97" selection-end-column="75" />
+            <state relative-caret-position="2204">
+              <caret line="97" column="75" lean-forward="false" selection-start-line="97" selection-start-column="75" selection-end-line="97" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -62,32 +426,19 @@
       <file leaf-file-name="TopSpeedWindowing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/windowing/TopSpeedWindowing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
+            <state relative-caret-position="1740">
               <caret line="91" column="34" lean-forward="false" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="493">
+              <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/statemachine/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -95,8 +446,18 @@
       <file leaf-file-name="IncrementalLearningSkeleton.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/ml/IncrementalLearningSkeleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="957">
-              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="609">
+              <caret line="81" column="30" lean-forward="false" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -127,6 +488,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -152,6 +514,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/flink-examples-streaming/pom.xml" />
         <option value="$PROJECT_DIR$/flink-examples-batch/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -195,11 +558,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="275" />
-    <option name="y" value="135" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="199" />
+    <option name="y" value="275" />
     <option name="width" value="2090" />
-    <option name="height" value="1246" />
+    <option name="height" value="1283" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -207,9 +570,6 @@
         <expanded-state>
           <State>
             <id />
-          </State>
-          <State>
-            <id>Android Lint</id>
           </State>
           <State>
             <id>CSS</id>
@@ -257,6 +617,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,12 +631,53 @@
             <path>
               <item name="flinkexamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="flinkexamples" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-examples-batch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkexamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkexamples" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-examples-build-helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkexamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkexamples" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-examples-build-helper" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-examples-streaming-state-machine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkexamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkexamples" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-examples-build-helper" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-examples-streaming-twitter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkexamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkexamples" type="462c0819:PsiDirectoryNode" />
               <item name="flink-examples-streaming" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flinkexamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="flinkexamples" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-examples-streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkexamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkexamples" type="462c0819:PsiDirectoryNode" />
               <item name="flink-examples-table" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkexamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkexamples" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-examples-table" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkexamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkexamples" type="462c0819:PsiDirectoryNode" />
+              <item name="flink-examples-table" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flinkexamples" type="b2602c69:ProjectViewProjectNode" />
@@ -282,15 +687,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Errors" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -528,31 +928,39 @@
       <option name="presentableId" value="Default" />
       <updated>1557380254391</updated>
       <workItem from="1557380257578" duration="2647000" />
-      <workItem from="1558445043879" duration="148000" />
+      <workItem from="1558445043879" duration="1461000" />
+      <workItem from="1558446568205" duration="662000" />
     </task>
+    <task id="LOCAL-00001" summary="add gitignore">
+      <created>1558446641223</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558446641223</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2795000" />
+    <option name="totallyTimeSpent" value="4770000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="275" y="135" width="2090" height="1246" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921448" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297975" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295053" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295053" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24975891" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20234375" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -564,6 +972,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921448" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -574,19 +983,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/ml/IncrementalLearningSkeleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/wordcount/WordCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1943">
@@ -623,7 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2146">
           <caret line="102" column="16" lean-forward="false" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,7 +1260,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,7 +1267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12">
           <caret line="64" column="18" lean-forward="false" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,7 +1281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2146">
           <caret line="102" column="16" lean-forward="false" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -891,14 +1292,6 @@
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/ml/IncrementalLearningSkeleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,7 +1346,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/windowing/TopSpeedWindowing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
+        <state relative-caret-position="1740">
           <caret line="91" column="34" lean-forward="false" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
           <folding />
         </state>
@@ -961,16 +1354,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/wordcount/WordCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="97" column="75" lean-forward="true" selection-start-line="97" selection-start-column="75" selection-end-line="97" selection-end-column="75" />
+        <state relative-caret-position="2204">
+          <caret line="97" column="75" lean-forward="false" selection-start-line="97" selection-start-column="75" selection-end-line="97" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink-examples-streaming/src/main/java/org/apache/flink/streaming/examples/ml/IncrementalLearningSkeleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="81" column="30" lean-forward="false" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="493">
+          <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1032,7 +1441,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.40499458" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
