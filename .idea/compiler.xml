@@ -6,21 +6,121 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="flink-examples-batch" />
-        <module name="flink-examples-streaming" />
-        <module name="flink-examples-streaming-state-machine" />
-        <module name="flink-examples-streaming-twitter" />
-        <module name="flink-examples-table" />
+        <module name="flink-parent-child-classloading-test_2.11" />
+        <module name="flink-local-recovery-and-allocation-test" />
+        <module name="flink-e2e-test-utils" />
+        <module name="flink-stream-stateful-job-upgrade-test" />
+        <module name="flink-heavy-deployment-stress-test" />
+        <module name="flink-metrics-availability-test" />
+        <module name="flink-streaming-kafka010-test_2.11" />
+        <module name="flink-distributed-cache-via-blob-test_2.11" />
+        <module name="flink-examples-table_2.11" />
+        <module name="flink-elasticsearch6-test" />
+        <module name="flink-streaming-kafka-test-base_2.11" />
+        <module name="flink-streaming-file-sink-test" />
+        <module name="flink-examples-streaming-state-machine_2.11" />
+        <module name="flink-examples-streaming_2.11" />
+        <module name="flink-end-to-end-tests-common" />
+        <module name="flink-examples-batch_2.11" />
+        <module name="flink-streaming-kafka-test_2.11" />
+        <module name="flink-elasticsearch2-test" />
+        <module name="flink-high-parallelism-iterations-test" />
+        <module name="flink-elasticsearch5-test" />
+        <module name="flink-cli-test_2.11" />
+        <module name="flink-stream-state-ttl-test" />
+        <module name="flink-bucketing-sink-test" />
+        <module name="flink-queryable-state-test_2.11" />
+        <module name="flink-stream-sql-test_2.11" />
+        <module name="flink-sql-client-test" />
+        <module name="flink-dataset-allround-test" />
+        <module name="flink-quickstart-test" />
+        <module name="flink-confluent-schema-registry" />
+        <module name="flink-state-evolution-test" />
+        <module name="flink-elasticsearch1-test" />
+        <module name="flink-streaming-kafka011-test_2.11" />
+        <module name="flink-metrics-reporter-prometheus-test" />
+        <module name="flink-examples-streaming-twitter_2.11" />
+        <module name="flink-datastream-allround-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="flink-examples-batch" target="1.8" />
+      <module name="flink-bucketing-sink-test" target="1.8" />
+      <module name="flink-cli-test_2.11" target="1.8" />
+      <module name="flink-confluent-schema-registry" target="1.8" />
+      <module name="flink-dataset-allround-test" target="1.8" />
+      <module name="flink-datastream-allround-test" target="1.8" />
+      <module name="flink-distributed-cache-via-blob-test_2.11" target="1.8" />
+      <module name="flink-e2e-test-utils" target="1.8" />
+      <module name="flink-elasticsearch1-test" target="1.8" />
+      <module name="flink-elasticsearch2-test" target="1.8" />
+      <module name="flink-elasticsearch5-test" target="1.8" />
+      <module name="flink-elasticsearch6-test" target="1.8" />
+      <module name="flink-end-to-end-tests" target="1.8" />
+      <module name="flink-end-to-end-tests-common" target="1.8" />
+      <module name="flink-examples" target="1.8" />
+      <module name="flink-examples-batch_2.11" target="1.8" />
       <module name="flink-examples-build-helper" target="1.8" />
-      <module name="flink-examples-streaming" target="1.8" />
-      <module name="flink-examples-streaming-state-machine" target="1.8" />
-      <module name="flink-examples-streaming-twitter" target="1.8" />
-      <module name="flink-examples-table" target="1.8" />
-      <module name="flinkexamples" target="1.8" />
+      <module name="flink-examples-streaming-state-machine_2.11" target="1.8" />
+      <module name="flink-examples-streaming-twitter_2.11" target="1.8" />
+      <module name="flink-examples-streaming_2.11" target="1.8" />
+      <module name="flink-examples-table_2.11" target="1.8" />
+      <module name="flink-heavy-deployment-stress-test" target="1.8" />
+      <module name="flink-high-parallelism-iterations-test" target="1.8" />
+      <module name="flink-local-recovery-and-allocation-test" target="1.8" />
+      <module name="flink-metrics-availability-test" target="1.8" />
+      <module name="flink-metrics-reporter-prometheus-test" target="1.8" />
+      <module name="flink-parent-child-classloading-test_2.11" target="1.8" />
+      <module name="flink-queryable-state-test_2.11" target="1.8" />
+      <module name="flink-quickstart-test" target="1.8" />
+      <module name="flink-sql-client-test" target="1.8" />
+      <module name="flink-state-evolution-test" target="1.8" />
+      <module name="flink-stream-sql-test_2.11" target="1.8" />
+      <module name="flink-stream-state-ttl-test" target="1.8" />
+      <module name="flink-stream-stateful-job-upgrade-test" target="1.8" />
+      <module name="flink-streaming-file-sink-test" target="1.8" />
+      <module name="flink-streaming-kafka-test-base_2.11" target="1.8" />
+      <module name="flink-streaming-kafka-test_2.11" target="1.8" />
+      <module name="flink-streaming-kafka010-test_2.11" target="1.8" />
+      <module name="flink-streaming-kafka011-test_2.11" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="flink-bucketing-sink-test" options="" />
+      <module name="flink-cli-test_2.11" options="" />
+      <module name="flink-confluent-schema-registry" options="" />
+      <module name="flink-dataset-allround-test" options="" />
+      <module name="flink-datastream-allround-test" options="" />
+      <module name="flink-distributed-cache-via-blob-test_2.11" options="" />
+      <module name="flink-e2e-test-utils" options="" />
+      <module name="flink-elasticsearch1-test" options="" />
+      <module name="flink-elasticsearch2-test" options="" />
+      <module name="flink-elasticsearch5-test" options="" />
+      <module name="flink-elasticsearch6-test" options="" />
+      <module name="flink-end-to-end-tests-common" options="" />
+      <module name="flink-examples-batch_2.11" options="" />
+      <module name="flink-examples-streaming-state-machine_2.11" options="" />
+      <module name="flink-examples-streaming-twitter_2.11" options="" />
+      <module name="flink-examples-streaming_2.11" options="-Xlint:all -Xpkginfo:always" />
+      <module name="flink-examples-table_2.11" options="" />
+      <module name="flink-heavy-deployment-stress-test" options="" />
+      <module name="flink-high-parallelism-iterations-test" options="" />
+      <module name="flink-local-recovery-and-allocation-test" options="" />
+      <module name="flink-metrics-availability-test" options="" />
+      <module name="flink-metrics-reporter-prometheus-test" options="" />
+      <module name="flink-parent-child-classloading-test_2.11" options="" />
+      <module name="flink-queryable-state-test_2.11" options="" />
+      <module name="flink-quickstart-test" options="" />
+      <module name="flink-sql-client-test" options="" />
+      <module name="flink-state-evolution-test" options="" />
+      <module name="flink-stream-sql-test_2.11" options="" />
+      <module name="flink-stream-state-ttl-test" options="" />
+      <module name="flink-stream-stateful-job-upgrade-test" options="" />
+      <module name="flink-streaming-file-sink-test" options="" />
+      <module name="flink-streaming-kafka-test-base_2.11" options="" />
+      <module name="flink-streaming-kafka-test_2.11" options="" />
+      <module name="flink-streaming-kafka010-test_2.11" options="" />
+      <module name="flink-streaming-kafka011-test_2.11" options="" />
+    </option>
   </component>
 </project>

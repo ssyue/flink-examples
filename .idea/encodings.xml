@@ -2,12 +2,42 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-bucketing-sink-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-cli-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-confluent-schema-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-dataset-allround-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-datastream-allround-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-distributed-cache-via-blob-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-e2e-test-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-elasticsearch1-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-elasticsearch2-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-elasticsearch5-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-elasticsearch6-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-end-to-end-tests-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-heavy-deployment-stress-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-high-parallelism-iterations-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-local-recovery-and-allocation-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-metrics-availability-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-metrics-reporter-prometheus-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-parent-child-classloading-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-queryable-state-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-quickstart-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-sql-client-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-state-evolution-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-stream-sql-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-stream-state-ttl-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-stream-stateful-job-upgrade-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-streaming-file-sink-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-streaming-kafka-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-streaming-kafka-test-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-streaming-kafka010-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-end-to-end-tests/flink-streaming-kafka011-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-examples-batch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-examples-build-helper" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-state-machine" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-examples-build-helper/flink-examples-streaming-twitter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-examples-streaming" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-examples-table" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pom.xml" charset="UTF-8" />
   </component>
 </project>
