@@ -23,7 +23,7 @@ under the License.
 
 	<artifactId>flink-examples</artifactId>
 	<groupId>org.apache.flink</groupId>
-	<version>1.8.0</version>
+	<version>1.9.2</version>
 	<name>flink-examples</name>
 	<packaging>pom</packaging>
 	<properties>
